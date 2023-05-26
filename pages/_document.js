@@ -8,7 +8,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <script src="https://micro-mario-46q24z3yb-harrymee94-gmailcom.vercel.app/mario/_next/static/runtime/app2RemoteEntry.js" />
+        <script src="https://micro-mario.vercel.app/mario/_next/static/runtime/app2RemoteEntry.js" />
         <Head />
         <body>
           <Main />
