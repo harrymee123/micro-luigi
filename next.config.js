@@ -9,14 +9,14 @@ module.exports = {
     const { isServer } = options;
     const mfConf = {
       mergeRuntime: true, //experimental
-      name: "app1",
+      name: "marioApp",
       library: {
         type: config.output.libraryTarget,
-        name: "app1",
+        name: "marioApp",
       },
       filename: "static/runtime/remoteEntry.js",
       remotes: {
-        app2: "app2",
+        luigiApp: "luigiApp",
       },
       exposes: {
         "./luigi": "./components/luigi",
