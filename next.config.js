@@ -15,7 +15,8 @@ module.exports = {
         },
         filename: "static/runtime/remoteEntry.js",
         remotes: {
-          marioApp: "marioApp",
+          marioApp:
+            "marioApp@https://micro-mario.vercel.app/mario/_next/static/runtime/remoteEntry.js",
         },
         exposes: {
           "./luigi": "./components/luigi",
