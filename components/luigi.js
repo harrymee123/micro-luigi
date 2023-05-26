@@ -12,8 +12,11 @@ const Luigi = () => {
       <h1 className={styles.title}>G'day! I'ma Luigi. CHANGE</h1>
       <span>
         I'm hosted at{" "}
-        <a target="_blank" href="http://localhost:3002/luigi">
-          http://localhost:3002/luigi
+        <a
+          target="_blank"
+          href="https://micro-luigi-fclro5wit-harrymee94-gmailcom.vercel.app/luigi"
+        >
+          https://micro-luigi-fclro5wit-harrymee94-gmailcom.vercel.app/luigi
         </a>
       </span>
     </main>
